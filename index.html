@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.webp"> <!-- 这是看门娘黑耳狐 -->
+    <title>IK公益-dev</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column; /* 使内容垂直排列 */
+            justify-content: center;
+            align-items: center;
+            background-color: black; /* 背景为黑色 */
+            color: white; /* 文字颜色为白色 */
+            font-family: Arial, sans-serif; /* 字体 */
+        }
+
+        h1 {
+            font-size: 3em; /* 标题字体大小 */
+            text-align: center; /* 文字居中 */
+            margin: 0; /* 去掉默认的外边距 */
+        }
+
+        h2 {
+            font-size: 1.5em; /* h2 字体大小 */
+            text-align: center; /* 文字居中 */
+            margin-top: 20px; /* h1 和 h2 之间的间隔 */
+        }
+
+        footer {
+            margin-top: 100px; /* 页脚位置 */
+            padding: 10px; /* 页脚内边距 */
+            text-align: center; /* 文字居中 */
+            font-size: 0.8em; /* 页脚字体大小 */
+            color: gray; /* 页脚文字颜色 */
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em; /* 移动端字体大小 */
+            }
+            h2 {
+                font-size: 1.2em; /* 移动端 h2 字体大小 */
+            }
+        }
+
+        /* 导航栏样式 */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: absolute; /* 绝对定位 */
+            top: 10px; /* 距离顶部10px */
+            right: 10px; /* 距离右侧10px */
+            background-color: black; /* 背景颜色 */
+        }
+
+        li {
+            float: right; /* 右浮动 */
+            position: relative; /* 相对定位 */
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 12px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111; /* 悬停效果 */
+        }
+
+        /* 二级菜单样式 */
+        .submenu {
+            display: none; /* 默认隐藏 */
+            position: absolute; /* 绝对定位 */
+            top: 100%; /* 在父元素下方 */
+            left: 0; /* 对齐左侧 */
+            background-color: black; /* 背景颜色 */
+            z-index: 1; /* 确保在上方 */
+        }
+
+        .submenu li {
+            float: none; /* 取消浮动 */
+        }
+
+        .submenu li a {
+            padding: 10px 12px; /* 内边距 */
+        }
+
+        /* 显示二级菜单 */
+        li:hover .submenu {
+            display: block; /* 悬停时显示 */
+        }
+    </style>
+</head>
+<body>
+    <h1>IK公益</h1>
+
+    <h2>公益 开放 专业 可自由加入的Linux团队</h2>
+
+    <ul>
+        <li>
+            <a class="active" href="/join-us">加入</a>
+        </li>
+        <li>
+            <a href="#about" id="aboutLink">拓展链接</a>
+            <ul class="submenu" id="submenu">
+                <li><a href="https://blog.ikgy.top">站长博客</a></li>
+                <li><a href="https://wiki.ikwiki.top">本站WIKI</a></li>
+                <li><a href="./bds.html">MC群服</a></li>
+                <li><a href="https://lshub.eu.org">gingshan避风港</a></li>
+                </ul>
+        </li>
+        <li><a href="./services.html">服务</a></li>
+        <li><a href="./jianjie.html">简介</a></li>
+    </ul>
+
+    <footer>
+        &copy; 2020-2025 IK公益. 保留所有权利.</br>Powered by <a href="https://blog.ikgy.top" style="color: inherit; text-decoration: none;">Serika</a></br>IDC服务商:<a href="https://cloud.zaiccc.com/" style="color: inherit; text-decoration: none;">仔云科技</a>
+    </footer>
+    <!-- <div class="music-player">
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1890128737&auto=1&height=66"></iframe>
+    </div> -->    
+    <script>
+        const aboutLink = document.getElementById('aboutLink');
+        const submenu = document.getElementById('submenu');
+
+        aboutLink.addEventListener('click', function(event) {
+            event.preventDefault(); // 阻止默认链接行为
+            submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block'; // 切换显示状态
+        });
+    </script>
+</body>
+</html>
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- 神秘小视频 -->
+<!-- https://www.bilibili.com/video/BV1L4421S7Kr?spm_id_from=333.788.recommend_more_video.-1&vd_source=1d76eca49744b153281a2d5f33e972f5 -->
+<!-- https://www.bilibili.com/video/BV19r4y1o74g/?spm_id_from=333.337.search-card.all.click&vd_source=1d76eca49744b153281a2d5f33e972f5  -->
+
+
+
+
